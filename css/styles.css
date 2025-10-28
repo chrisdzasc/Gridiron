@@ -189,3 +189,42 @@ h1 {
     text-align: end;
     margin: 0;
 }
+
+.action {
+    padding: 96px;
+    display: flex;
+    justify-content: center;
+}
+
+.action-container {
+    background-color: var(--blue);
+    width: 80%;
+    padding: 48px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.action-text {
+    color: var(--white);
+    font-size: 20px;
+    margin: 0;
+    font-weight: 900;
+}
+
+.action-description {
+    color: var(--gray);
+    margin: 0;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.action-button {
+    all: unset;
+    cursor: pointer;
+    border: 3px solid var(--white);
+    padding: 8px 32px;
+    border-radius: 8px;
+    color: var(--white);
+}
