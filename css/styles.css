@@ -125,7 +125,6 @@ h1 {
 
 
 .container {
-    background-color: white;
     margin: 0;
     padding: 8px;
     width: 100%;
@@ -227,4 +226,13 @@ h1 {
     padding: 8px 32px;
     border-radius: 8px;
     color: var(--white);
+}
+
+.footer {
+    background-color: var(--dark);
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    color: var(--white);
+    font-size: 16px;
 }
