@@ -3,6 +3,13 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: var(--roboto);
+    min-height: 100vh;
+}
+
+img {
+    max-width: 100%;
+    display: block;
 }
 
 * ,*:before, *:after {
@@ -33,7 +40,84 @@ body {
     --dark: #1F2937;
     --blue: #3882F6;
     --gray: #E5E7EB;
+    --white: #F9FAF8;
 
     /* FONT */
     --roboto: "Roboto", sans-serif;
 }
+
+.header {
+    background-color: var(--dark);
+    padding: 8px;
+    padding-bottom: 96px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    align-items: center;
+}
+
+.nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--gray);
+    font-size: 18px;
+}
+
+.info {
+    display: flex;
+    gap: 32px;
+    width: 80%;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 16px;
+}
+
+h1 {
+    font-size: 48px;
+    color: var(--white);
+    margin: 0;
+}
+
+.description {
+    margin: 0;
+    font-size: 18px;
+    color: var(--gray);
+}
+
+.img {
+    width: 60%;
+    height: auto;
+    background-color: white;
+}
+
+.button {
+    all: unset;
+    cursor: pointer;
+    background-color: var(--blue);
+    width: 30%;
+    text-align: center;
+    padding: 8px;
+    border-radius: 8px;
+}
+
