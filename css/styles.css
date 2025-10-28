@@ -120,6 +120,7 @@ h1 {
     text-align: center;
     padding: 8px;
     border-radius: 8px;
+    color: var(--white);
 }
 
 
@@ -160,4 +161,31 @@ h1 {
 .card-description {
     font-size: 18px;
     color: var(--dark);
+}
+
+.testimonial {
+    background-color: var(--gray);
+    padding: 144px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial-container {
+    width: 65%;
+}
+
+.quote {
+    font-size: 36px;
+    color: var(--dark);
+    font-weight: 300;
+    font-style: italic;
+    margin: 0;
+}
+
+.quote-person {
+    font-size: 18px;
+    font-weight: 900;
+    text-align: end;
+    margin: 0;
 }
